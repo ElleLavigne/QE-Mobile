@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #dee8be;
+}
+/* header */
+
+.container-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #b7d1a3;
+}
+
+.address {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+.contact {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+/*main*/
+
+main {
+  background-image: url(./assets/bg-principal.jpg);
+  background-size: cover;
+  height: 19.9rem;
+}
+.container-main {
+  padding-top: 4rem;
+  padding-left: 10%;
+}
+.button {
+  display: flex;
+  gap: 2.6rem;
+}
+main h1 {
+  color: white;
+  margin-bottom: 5.3rem;
+  font-family: "Inter", sans-serif;
+}
+button {
+  color: white;
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #cd8c52;
+  border: none;
+  border-radius: 0.6rem;
+  font-family: inter;
+}
+
+/*services*/
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem 1.1rem;
+  gap: 3.5rem;
+}
+
+.content {
+  padding: 0.6rem;
+  padding-left: 0;
+}
+
+.text {
+  text-align: left;
+  line-height: 133%;
+  letter-spacing: -0.56px;
+  color: white;
+  font-weight: 400;
+  font-family: Sahitya;
+  font-size: 1.4rem;
+}
+
+.service {
+  padding-left: 0.4rem;
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  background-color: #5e3929;
+}
+.service-2 {
+  background-color: #fcf7d3;
+}
+.service-2 .text {
+  color: #5e3929;
+}
+.service-3 {
+  background-color: #cd8c52;
+}
+.service-3 .text {
+  color: black;
+}
+
+footer {
+  height: 12.8rem;
+  background-color: #5e3929;
+}
+.information-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-us {
+  border-right: 2px solid black;
+  margin-top: 3.6rem;
+  color: white;
+}
+.sing-up {
+  margin-top: 3.6rem;
+  color: white;
+}
